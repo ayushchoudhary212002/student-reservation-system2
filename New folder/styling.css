@@ -1,0 +1,61 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  form label,
+  form input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  #searchBar {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+  }
+  
+  h2 {
+    margin-top: 30px;
+  }
+  
+  #reservationList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .reservationItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+  }
+  
+  .reservationItem button {
+    background-color: #ff5252;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
